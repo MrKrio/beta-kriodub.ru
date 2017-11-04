@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #1C161C;
+}
+
+nav {
+	color: #fff;
+}
+
+nav ul {
+	width: 100vw;
+	height: 50px;
+}
+
+nav li {
+	display: block;
+	float: left;
+	width: calc((100% - 50px) / 4);
+	text-align: center;
+	list-style: none;
+	line-height: 50px;
+}
+
+
+nav li a {
+	display: inline-block;
+	width: 100%;
+	height: inherit;
+
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: American Capitan, Arial;
+	font-weight: bolder;
+	transition: all 0.2s ease-out;
+}
+
+nav li a:hover {
+	color: #040404;
+	background-color: orange;
+}
+
+nav li:first-child {
+	width: 50px;
+	height: 50px;
+	font-size: 180%;
+}
+
+nav li:first-child :hover {
+	color: #fff;
+	background-color: #1C161C;
+	height: 50px;
+}
+
+
+
+
+#banner {
+	position: absolute;
+	top: 50px;
+	display: block;
+	width: 100%;
+	height: 150px;
+background: -webkit-linear-gradient(right, orange, #7900D0);
+background: -o-linear-gradient(right, orange, #7900D0);
+background: linear-gradient(to left, orange, #7900D0);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+}
+
+#logotext {
+	display: inline-block;
+	position: relative;
+	width: inherit;
+	height: inherit;
+	font-family: langdon, Arial;
+	color: #fff;
+	line-height: 128px;
+	font-size: 10em;
+	text-align: center;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: Langdon;
+	src: url(font/Langdon.otf);
+}
+
+#container {
+	display: block;
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+}
+
+#content {
+	background-color: #1a6;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	max-width: 1020px;
+	min-height: 50px; 
+}
